@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alex Batovsky's Blog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-post.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<style>
+img{
+		border: solid 1px black;
+	}
+	</style>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://alxbtvsky.github.io">Alex Batovsky</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+					<li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="http://alxbtvsky.azurewebsites.net/">Project</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1>MVC</h1>
+
+                <!-- Author -->
+                <p class="lead">
+                    by <a href="https://alxbtvsky.github.io">Alex Batovsky</a>
+                </p>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Posted on March 24, 2015 at 9:00 PM</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img1" src="images/img1.png">
+                <hr>
+
+                <!-- Post Content -->
+                <p class="lead">Introduction:</p>
+
+				<h5>
+				The objective of this project was the use MVC.NET and bootstrap to implement the wireframe below.  I had the freedom to be creative in every aspect,
+				as long as all fields were shown and able to be updated after hitting the 'change' button.  Authentication was not required,
+				but validation had to be done on all fields.  All code had to be checked into Github and deployed into azure, but the
+				code did not have to persist to a database.
+				</h5>
+				<hr>
+				
+				<p class="lead">Digging Deeper:</p>
+				<h5>
+				Using MVC.NET and bootstrap to do this project made it substantially less difficult.  MVC.NET and bootstrap do a lot for you
+				right out of the gate.  For instance, when you first create your project in MVC.NET, bootstrap is already in place and a template for your
+				entire website is already in place, as well.  It is then your job to create the look and feel of your website, while adding
+				additional features and functionality.
+				</h5>
+				<hr>
+				
+				<p class="lead">Additional Resources:</p>
+				<h5>
+				I hope this post helped you decide if you would like to begin using MVC or not. If you would like to continue learning about MVC I recommend the following resources:<br><br>
+					<ul style="list-style-type:none">
+						<li> <a href="http://www.microsoftvirtualacademy.com/training-courses/introduction-to-asp-net-mvc?m=9881&ct=31122" target="_blank">http://www.microsoftvirtualacademy.com/training-courses/introduction-to-asp-net-mvc?m=9881&ct=31122 </a> </li>
+						<li> <a href="http://www.asp.net/mvc/overview/getting-started/introduction/getting-started" target="_blank"> http://www.asp.net/mvc/overview/getting-started/introduction/getting-started  </a> </li>		
+					</ul>
+				</h5>
+				<hr>
+
+                <!-- Blog Comments -->
+
+                <!-- Comments Form -->
+                <div class="well">
+                    <h4>Leave a Comment:</h4>
+                    <form role="form">
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+
+                <hr>
+
+                <!-- Posted Comments -->
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">MVC rocks!
+                            <small>February, 2015 at 9:30 PM</small>
+                        </h4>
+                        This blog post helped me so much in learning more about MVC and I look forward to seeing more in the future. Thank you!
+                    </div>
+                </div>
+
+                <!-- Comment -->
+                <div class="media">
+                    <a class="pull-left" href="#">
+                        <img class="media-object" src="http://placehold.it/64x64" alt="">
+                    </a>
+                    <div class="media-body">
+                        <h4 class="media-heading">Ill be using MVC from now on!
+                            <small>February, 2015 at 9:30 PM</small>
+                        </h4>
+                        Thank you for pointing me in the right direction when it comes to learning about MVC!
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Blog Sidebar Widgets Column -->
+            <div class="col-md-4">
+
+                <!-- Blog Search Well -->
+                <div class="well">
+                    <h4>Blog Search</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">
+                                <span class="glyphicon glyphicon-search"></span>
+                        </button>
+                        </span>
+                    </div>
+                    <!-- /.input-group -->
+                </div>
+
+                <!-- Blog Categories Well -->
+                <div class="well">
+                    <h4>Blog Categories</h4>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Blog 1</a>
+                                </li>
+                                <li><a href="#">Blog 2</a>
+                                </li>
+                                <li><a href="#">Blog 3</a>
+                                </li>
+                                <li><a href="#">Blog 4</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Blog 5</a>
+                                </li>
+                                <li><a href="#">Blog 6</a>
+                                </li>
+                                <li><a href="#">Blog 7</a>
+                                </li>
+                                <li><a href="#">Blog 8</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>Contact Information</h4>
+                    <p>
+					Name: Alex Batovsky<br>
+					Phone: 502-555-3333<br>
+					Url:    <a href="alxbtvsky.github.io">My Website!</a> <br>
+					</p>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Alex Batovsky 2014</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
